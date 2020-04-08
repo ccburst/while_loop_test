@@ -23,7 +23,7 @@ void setup()
 
 void loop()
 {
-  Serial.println("----0x07寫入ADRST置高-------");
+  /*Serial.println("----0x07寫入ADRST置高-------");
   REG_write(0x07,0x80); // 將ADRST置高 , 進行A/D轉換
   REG_read(0x07);
   Serial.print("0x07=");
@@ -42,7 +42,7 @@ void loop()
   Serial.print("0x06="); 
   Serial.println(data);
   
-  delay(1000);
+  delay(1000);*/
   
   Serial.println("----0x07寫入ADRST置低-------");
   REG_write(0x07,0x00); 
